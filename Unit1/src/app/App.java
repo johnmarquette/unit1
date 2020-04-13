@@ -2,33 +2,22 @@ package app;
 
 public class App {
     public static void main(String[] args) throws Exception {
-      boolean livesinElkRviver = false; 
-      char firstletterofName = "J";
-      byte numberoftoes = "5";
-      short numberofmilkshakes = "10";
-      int numberofgokarts = "2,000,000,000";
-      long numberofcoolteachers = "1,000,000,000,000,000";
-      float numberofballs = "7.5";
-      double numberofpencils = "10.3333333333333";
+     String Person1 = "John";
+String Person2 = “Kaz”;
+String Verb1 = “surf”;
+String Verb2 = “train”;
+String Verb3 = “surf”;
+String Food = “M&M Pizza”;
+String dayOfWeek = “Saturday”;
+String Place1 = “beach”;
+String place2 = “Coca Beach”;
+String adjective1 = “huge”;
+String adjective2 = “awesome”;
 
+System.out.println(person1 + “ is a programmer who likes to “ + verb1);
+System.out.println(“Every” + dayOfWeek + “they make a” + adjective1 + food + “for breakfast and” + verb2 + “at” + place1 + “with” person2);
+System.out.println(“Sometimes, they go to the” + adjective2 + place2 + “with” + person2 + “so that they can” + verb3 + “together”);
 
-      System.out.println("The number of pencils is:");
-      System.out.println("numberofpencils");
-      System.out.println("The number of balls is:");
-      System.out.println("numberofballs");
-      System.out.println("The number of cool teachers is:");
-      System.out.println("numberofcoolteachers");
-      System.out.println("The number of go karts is:");
-      System.out.println("numberofgokarts");
-      System.out.println("The number of milkshakes is:");
-      System.out.println("numberofmilkshakes");
-      System.out.println("The number of toes is:");
-      System.out.println("numberoftoes");
-      System.out.println("The first letter of Name is:");
-      System.out.println("firstletterofName");
-      System.out.println("Do you live in Elk River?");
-      System.out.println("livesinElkRiver");
-      
 
 
         
