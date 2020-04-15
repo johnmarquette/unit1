@@ -24,10 +24,11 @@ public class App {
     }
 
     for (int i = 10; i <= 0; i = i - 1){
-        System.out.println("The count is" + i);
+        System.out.println("The count is - i");
         System.out.println("Let's keep counting");
     }
-    
+} 
+}
 
 
 
