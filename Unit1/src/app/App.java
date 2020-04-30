@@ -6,12 +6,11 @@ public class App {
     
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter password.");
+        System.out.println("Please enter number.");
+        System.out.println("What is the count?");
         String enteredPassword = input.nextLine();
-        if (enteredPassword.equals("183726073")){
-            System.out.println("Access Granted");
-        }else {
-            System.out.println("Access Denied");
+        for (int i = 1; i <= 7; i = i + 1){
+            System.out.println(i);
         }
         
         
