@@ -6,11 +6,26 @@ public class App {
     
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter number.");
-        System.out.println("What is the count?");
-        String enteredPassword = input.nextLine();
-        for (int i = 1; i <= 7; i = i + 1){
-            System.out.println(i);
+        System.out.println("What is the color of the sky?");
+        String color = input.nextLine();
+        if (color.equals("blue")){
+            System.out.println("Correct");
+        }else {
+            System.out.println("incorrect");
+        }
+        System.out.println("What is the capitol of Calfornia?");
+        String capitol = input.nextLine();
+        if (capitol.equals("Sacramento")){
+            System.out.println("Correct");
+        }else {
+            System.out.println("incorrect");
+        }
+        System.out.println("Goldfish have a memory of?");
+        String memory = input.nextLine();
+        if (memory.equals("3 seconds")){
+            System.out.println("Correct");
+        }else {
+            System.out.println("incorrect");
         }
         
         
