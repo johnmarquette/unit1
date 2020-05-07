@@ -26,7 +26,11 @@ public class App {
         String candy = input.nextLine();
         System.out.println("Please enter a movie.");
         String movie = input.nextLine();
-        System.out.println("Make a sentence.");
+        System.out.println("A" + noun + "named" + name + verb + adjective + "at the" + place);
+        System.out.println("And his favorite food is" + food);
+        System.out.println("Also he goes to the zoo to see an" + animal);
+        System.out.println(name + "is" + number + "years old");
+        System.out.println("His favorite candy is" + candy + "when watching his favorite movie which is" + movie);
         
         
         
