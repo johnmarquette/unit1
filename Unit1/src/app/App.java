@@ -6,26 +6,26 @@ public class App {
     
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Please enter number for a.");
-         String numba = input.nextLine();
-        System.out.println("Please enter number for b.");
-        String numbb = input.nextLine();
-        System.out.println("Please enter function");
-        String func = input.nextLine();
-        System.out.println(numba + func + numbb);
-        System.out.println(5 + 5);
-        System.out.println("Please enter function");
-        String funct = input.nextLine();
-        System.out.println(numba + funct + numbb);
-        System.out.println(5 - 5);
-        System.out.println("Please enter function");
-        String functi = input.nextLine();
-        System.out.println(numba + functi + numbb);
-        System.out.println(5 * 5);
-        System.out.println("Please enter function");
-        String function = input.nextLine();
-        System.out.println(numba + function + numbb);
-        System.out.println(5 / 5);
+        System.out.println("Enter a number.");
+        int num1 = input.nextInt();
+        System.out.println("Enter another number.");
+        int num2 = input.nextInt();
+
+        System.out.println("Press 1 for addition, 2 for subtraction, 3 for mutiplication, or 4 for division.");
+        int choice = input.nextInt();
+
+        if (choice == 1){
+            System.out.println(num1 + num2);
+        }
+        if (choice == 2){
+            System.out.println(num1 - num2);
+        }
+        if (choice == 3){
+            System.out.println(num1 * num2);
+        }
+        if (choice == 4){
+            System.out.println(num1 / num2);
+        }
 
         
 
